@@ -1,0 +1,108 @@
+$color1:#fbbf00;
+$color2:#ff9900;
+$color3:#3caaff;
+$color4:#79c5ff;
+$color5:#ff6600;
+$color6:#333333;
+$color7:#444444;
+$color8:#666666;
+$color9:#999999;
+$color10:#cccccc;
+$color11:#e3e3e3;
+$color12:#ffffff;
+$color13:#f4f4f4;
+$color14:#f8f8f8;
+$color15:#eeeeee;
+$color16:#1b2b3b;
+$color17:#6985a5;
+$color18:#B0C3B0;
+$color19:#B7CFE4;
+$color20:#F3E8C9;
+$color21:#505050;
+$color22:#d7d7d7;
+$color23:#f6f6f6;
+$color24:#fffaea;
+$color25:#d8d8d8;
+$color26:#9d9b9d;
+$f-family1:"Microsoft Yahei";
+$f-family2:Arial;
+@mixin button($width,$height,$fontSize:0,$borderRaduis:3)
+{
+	$fSize:0;
+	@if $fontSize == 0 {	
+		@if $height >= 36
+		{
+			$fSize:16;
+		} @else if $height >= 28 and $height <36{
+			$fSize:14;
+		} @else if $height < 28{
+			$fSize:12;
+		}
+	}@else{
+		$fSize:#{$fontSize};
+	}
+    display: inline-block;
+    width:#{$width}px;
+    height:#{$height}px;
+    line-height: #{$height}px;
+    font-size: #{$fSize}px;
+    border-radius: #{$borderRaduis}px;
+}
+@mixin adjustBtn($height,$padding:12,$fontSize:0,$borderRaduis:3)
+{
+	$fSize:0;
+	@if $fontSize == 0 {	
+		@if $height >= 36
+		{
+			$fSize:16;
+		} @else if $height >= 28 and $height < 36{
+			$fSize:14;
+		} @else if $height < 28{
+			$fSize:12;
+		}
+	}@else{
+		$fSize:#{$fontSize};
+	}
+    display: inline-block;
+    padding:0 #{$padding}px;
+    height:#{$height}px;
+    line-height: #{$height}px;
+    font-size: #{$fSize}px;
+    border-radius: #{$borderRaduis}px;
+}
+@mixin activeBtn($type:1){
+	@if $type == 1{
+		background-color: $color1;
+		color:$color12;
+		border:1px solid $color1;
+	} @else if $type == 10{
+		background-color: $color2;
+		color:$color12;
+		border:1px solid $color2;
+	} @else if $type == 2{		
+		color:$color1;
+		border:1px solid $color1;
+	} @else if $type == 20{
+		background-color: $color1;
+		color:$color12;
+		border:1px solid $color1;
+    }
+    text-align: center;
+	cursor: pointer;
+}
+@mixin unactiveBtn(){
+	background-color: $color10;
+	color:$color12;
+	border:1px solid $color10;
+    text-align: center;
+}
+// 透明度
+@mixin opacity($opacity){
+	opacity:$opacity;
+	filter:alpha(opacity=$opacity*100);
+}
+// 图片
+@mixin backGround($name, $posX, $posY) {
+    background: url($name) no-repeat;
+    background-position: $posX $posY;
+}

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* 按钮部分样式 */
+.u-btn-model1 {
+  background-color: #fbbf00;
+  color: #ffffff;
+  border: 1px solid #fbbf00;
+  text-align: center;
+  cursor: pointer; }
+
+.u-btn-model1:hover {
+  background-color: #ff9900;
+  color: #ffffff;
+  border: 1px solid #ff9900;
+  text-align: center;
+  cursor: pointer; }
+
+.u-btn-model2 {
+  color: #fbbf00;
+  border: 1px solid #fbbf00;
+  text-align: center;
+  cursor: pointer; }
+
+.u-btn-model2:hover {
+  background-color: #fbbf00;
+  color: #ffffff;
+  border: 1px solid #fbbf00;
+  text-align: center;
+  cursor: pointer; }
+
+.u-btn-model3 {
+  background-color: #cccccc;
+  color: #ffffff;
+  border: 1px solid #cccccc;
+  text-align: center; }
+
+.u-btn-178-38 {
+  display: inline-block;
+  width: 178px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 3px; }
+
+.u-btn-126-38 {
+  display: inline-block;
+  width: 126px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 3px; }
+
+.u-btn-128-38 {
+  display: inline-block;
+  width: 128px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 3px; }
+
+.u-btn-128-38-14-0 {
+  display: inline-block;
+  width: 128px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  border-radius: 0px; }
+
+.u-btn-58-22 {
+  display: inline-block;
+  width: 58px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  border-radius: 3px; }
+
+.u-btn-198-38 {
+  display: inline-block;
+  width: 198px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 3px; }
+
+.u-btn-148-38 {
+  display: inline-block;
+  width: 148px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 3px; }
+
+.u-btn-158-38 {
+  display: inline-block;
+  width: 158px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 3px; }
+
+.u-btn-148-38-18 {
+  display: inline-block;
+  width: 148px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+  border-radius: 3px; }
+
+.u-btn-248-38 {
+  display: inline-block;
+  width: 248px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 3px; }
+
+.u-btn-140-38 {
+  display: inline-block;
+  width: 140px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-radius: 3px; }
+
+.u-aBtn-28 {
+  display: inline-block;
+  padding: 0 12px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  border-radius: 3px; }
+
+.u-aBtn-28-15 {
+  display: inline-block;
+  padding: 0 15px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  border-radius: 3px; }
+
+.u-aBtn-28-20 {
+  display: inline-block;
+  padding: 0 20px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  border-radius: 3px; }
+
+/* 字体 */
+.s-font-yahei {
+  font-family: "Microsoft Yahei"; }
+
+.s-font-arial {
+  font-family: Arial; }
+
+/* 颜色 */
+.s-main-color1 {
+  color: #fbbf00; }
+
+.s-main-color2 {
+  color: #3caaff; }
+
+.s-main-color3 {
+  color: #ff6600; }
+
+/*灰色*/
+.s-gray-color1 {
+  color: #333333; }
+
+.s-gray-color2 {
+  color: #444444; }
+
+.s-gray-color3 {
+  color: #666666; }
+
+.s-gray-color4 {
+  color: #999999; }
+
+/* 浮动 */
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+/* 对齐 */
+.t-left {
+  text-align: left; }
+
+.t-center {
+  text-align: center; }
+
+.t-right {
+  text-align: right; }

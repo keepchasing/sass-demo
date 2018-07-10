@@ -1,0 +1,51 @@
+@import "public.scss";
+/* 按钮部分样式 */
+//实心激活btn
+.u-btn-model1{@include activeBtn();}
+.u-btn-model1:hover{@include activeBtn(10);}
+//空心激活btn
+.u-btn-model2{@include activeBtn(2);}
+.u-btn-model2:hover{@include activeBtn(20);}
+//实心不可点btn
+.u-btn-model3{@include unactiveBtn();} 
+
+
+//固定宽高button举例
+.u-btn-178-38{@include button(178,38)}
+.u-btn-126-38{@include button(126,38)}
+.u-btn-128-38{@include button(128,38)}
+.u-btn-128-38-14-0{@include button(128,38,14,0)}
+.u-btn-58-22{@include button(58,22)}
+.u-btn-198-38{@include button(198,38)}
+.u-btn-148-38{@include button(148,38)}
+.u-btn-158-38{@include button(158,38)}
+.u-btn-148-38-18{@include button(148,38,18)}
+.u-btn-248-38{@include button(248,38)}
+.u-btn-140-38{@include button(140,38)}
+//非固定宽度button举例
+.u-aBtn-28{@include adjustBtn(28);}
+.u-aBtn-28-15{@include adjustBtn(28,15);}
+.u-aBtn-28-20{@include adjustBtn(28,20);}
+/* 字体 */
+.s-font-yahei{font-family: $f-family1;}
+.s-font-arial{font-family: $f-family2;}
+
+/* 颜色 */
+.s-main-color1{color:$color1;} //黄色
+.s-main-color2{color:$color3;} //蓝色
+.s-main-color3{color:$color5;} //橙红色
+
+/*灰色*/
+.s-gray-color1{ color:$color6;} //#333
+.s-gray-color2{ color:$color7;} //#444
+.s-gray-color3{ color:$color8;} //#666
+.s-gray-color4{ color:$color9;} //#999
+
+/* 浮动 */
+.fr{float: right;}
+.fl{float: left;}
+ /* 对齐 */
+.t-left{text-align:left;}
+.t-center{text-align:center;}
+.t-right{text-align:right;}
+
